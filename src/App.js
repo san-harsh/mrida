@@ -1,4 +1,5 @@
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import Homepage from "./components/Homepage";
 import LandingPageBanner from "./components/LandingPageBanner";
 import "./input.css";
 import Navbar from "./Navbar";
@@ -7,7 +8,8 @@ export default function App() {
     <div>
       <Navbar />
       <LandingPageBanner />
-      <Footer />
+      <Homepage/>
+      {/* <Footer /> */}
     </div>
   );
 }
